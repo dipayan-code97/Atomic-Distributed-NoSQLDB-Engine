@@ -1,5 +1,5 @@
-# Treeless
-Distributed NoSQL key-value DB written in Go.
+# Atomic NoSqlDB-Engine Here is the updated text with the project name changed to "Atomic NoSqlDB-Engine":
+  Distributed NoSQL key-value DB written in Go.
 
 ## Features
 * High performance (~1MOp/s per node)
@@ -20,14 +20,14 @@ Distributed NoSQL key-value DB written in Go.
 	c.Close()
 
 ## CLI Example
-Creating a new database:
+   Creating a new database:
 
     ./treeless -create -port 10000 -dbpath DB0 -localip 127.0.0.1  -redundancy 2
 
-Adding a new node to an existing database:
+   Adding a new node to an existing database:
 
     ./treeless -assoc 127.0.0.1:10000 -port 10001 -dbpath DB1 -localip 127.0.0.1
 
 ## Status
-All tests are passed, but you may still find serious bugs. Use with care.
+   All tests are passed, but you may still find serious bugs. Use with care.
 
