@@ -1,4 +1,4 @@
-# Atomic NoSqlDB-Engine Here is the updated text with the project name changed to "Atomic NoSqlDB-Engine":
+# Atomic NoSqlDB-Engine
   Distributed NoSQL key-value DB written in Go.
 
 ## Features
